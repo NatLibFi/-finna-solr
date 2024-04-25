@@ -47,7 +47,7 @@ while (false !== ($line = fgets(STDIN))) {
     if ($qtime < $threshold) {
         continue;
     }
-    echo substr($line, 0, 23) . " QTime=$qtime" . PHP_EOL;
+    echo PHP_EOL . substr($line, 0, 23) . " QTime=$qtime" . PHP_EOL;
     echo implode(PHP_EOL, $queryParams);
     echo PHP_EOL;
 }
