@@ -324,7 +324,7 @@
   <dynamicField name="*_txtP_lr" type="textProper_lr" indexed="true" stored="false" storeOffsetsWithPositions="true"/>
   <dynamicField name="*_txtP_lr_mv" type="textProper_lr" indexed="true" stored="false" multiValued="true" storeOffsetsWithPositions="true"/>
   <dynamicField name="*_int" type="int"/>
-  <dynamicField name="*_int_mv" type="int"/>
+  <dynamicField name="*_int_mv" type="int" multiValued="true"/>
 
   <!-- Fields for museum data (LIDO) and archive data (EAD) -->
   <field name="measurements" type="text" indexed="true" stored="true" multiValued="true" storeOffsetsWithPositions="true"/>
